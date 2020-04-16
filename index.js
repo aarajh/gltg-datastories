@@ -1,5 +1,6 @@
 import slidesMississippiNutrientLoad from './N-P-Loads-Mississippi/slides.html';
 import thumbnailMississippiNutrientLoad from './N-P-Loads-Mississippi/thumbnail.png';
+import slidesNutrientLossIllinois from './Nutrient-Loss-Illinois/slides.html';
 import thumbnailNutrientLossIllinois from './Nutrient-Loss-Illinois/thumbnail.png';
 import thumbnailExploreData from './Explore-Data-GLTG/thumbnail.png';
 import thumbnailLayers from './Layers/thumbnail.png';
@@ -18,6 +19,7 @@ export default [
     },
     {
         title: 'Illinois Nutrient-Loss Reduction Strategy',
+        slides: slidesNutrientLossIllinois,
         thumbnail: thumbnailNutrientLossIllinois
     },
     {
