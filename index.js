@@ -3,6 +3,7 @@ import thumbnailMississippiNutrientLoad from './N-P-Loads-Mississippi/thumbnail.
 import slidesNutrientLossIllinois from './Nutrient-Loss-Illinois/slides.html';
 import thumbnailNutrientLossIllinois from './Nutrient-Loss-Illinois/thumbnail.png';
 import thumbnailExploreData from './Explore-Data-GLTG/thumbnail.png';
+import slidesLayers from './Layers/slides.html';
 import thumbnailLayers from './Layers/thumbnail.png';
 import thumbnailDataCollection from './Data-Collection/thumbnail.png';
 import thumbnailContinuousMonitoring from './Continuous-Monitoring/thumbnail.png';
@@ -10,6 +11,8 @@ import thumbnailBestManagementPractices from './Best-Management-Practices/thumbn
 import thumbnailCropScape from './Crop-Scape/thumbnail.png';
 import thumbnailNOAA from './NOAA/thumbnail.png';
 import thumbnailSparrowModel from './Sparrow-Model/thumbnail.png';
+import slidesTrends from './Trends/slides.html';
+import thumbnailTrends from './Trends/thumbnail.png';
 
 export default [
     {
@@ -23,12 +26,18 @@ export default [
         thumbnail: thumbnailNutrientLossIllinois
     },
     {
-        title: 'Exploring Data in the GLTG Portal',
-        thumbnail: thumbnailExploreData
+        title: 'What Are Layers and Why Do They Matter?',
+        slides: slidesLayers,
+        thumbnail: thumbnailLayers
     },
     {
-        title: 'What Are Layers and Why Do They Matter?',
-        thumbnail: thumbnailLayers
+        title: 'Tracking Trends with GLTG',
+        slides: slidesTrends,
+        thumbnail: thumbnailTrends
+    },
+    {
+        title: 'Exploring Data in the GLTG Portal',
+        thumbnail: thumbnailExploreData
     },
     {
         title: 'All About Data Collection',
